@@ -1,8 +1,8 @@
 name: Hello workflows
 on: 
-  pull_request:
+  push:
     branches:
-      - main
+      - feat/ci-cd
 
 jobs:
   hello:
