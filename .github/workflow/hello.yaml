@@ -1,0 +1,12 @@
+name: Hello workflows
+on: 
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  hello:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Step hi
+        run: echo "Hello"
